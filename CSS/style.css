@@ -1,0 +1,173 @@
+
+* {
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: rgb(14, 31, 47);
+    height: 80px;
+    border-bottom: 2px solid rgb(114, 125, 113);
+}
+
+nav{
+    background-color: rgb(14, 31, 47);
+    padding: 10px;
+    border-top: 2px  solid rgb(114, 125, 113);
+    border-bottom: 2px solid rgb(114, 125, 113);
+
+}
+
+main {
+    
+    width: 75%;
+    background-color: rgb(5, 84, 6);
+    border: 2px solid rgb(114, 125, 113);
+    
+}
+aside{
+    width: 25%;
+    background-color: rgb(14, 31, 47);
+    border: 2px solid rgb(114, 125, 113);
+}
+footer{
+    background-color: rgb(14, 31, 47);
+    color: rgb(226, 232, 206);
+    display: flex;
+    justify-content: space-between;
+}
+/*Ids*/
+#titulo{
+    text-align: center;
+    font-size: 36px;
+    color: rgb(226, 232, 206);
+}
+
+/*clases*/
+
+.caja-principal  {
+    display: flex;
+}
+
+.menu{ 
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.button {
+    border: 3px solid rgb(14, 31, 47);
+    background-color: rgb(3, 53, 4);
+    color: rgb(226, 232, 206);
+    padding: 16px 32px;
+    border-radius: 15px;
+    width: 250px;
+    line-height: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 6px 0px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover{
+    border: 3px solid rgb(21, 47, 70);
+    background-color: rgb(5, 84, 6);
+    
+}
+.foto{
+    background-size: cover;
+    max-width: 100%;
+}
+.icono{
+    background-size: cover;
+    max-width: 100%;
+    display: flex;
+}
+.caja-pf{
+    text-align: center;
+    background-color: rgb(14, 31, 47);
+    border: 3px solid rgb(226, 232, 206);
+    margin: 10px;
+    border-radius: 15px;
+    overflow:hidden;
+    padding-bottom: 0%;
+}
+.caja-porta{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(14, 31, 47);
+    border: 3px solid rgb(226, 232, 206);
+    margin: 10px;
+    border-radius: 15px;
+    overflow:hidden;
+    padding-bottom: 0%;
+}
+.caja-video{
+    justify-content: center;
+    background-color: rgb(14, 31, 47);
+    border: 3px solid rgb(226, 232, 206);
+    margin: 10px;
+    border-radius: 15px;
+    overflow:hidden;
+    padding-bottom: 0%;
+}
+.caja-biometrica{
+    text-align:justify;
+    background-color: rgb(14, 31, 47);
+    color: rgb(226, 232, 206);
+    border: 3px solid rgb(226, 232, 206);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.caja-section{
+    font-size: 18px;
+    text-align:justify;
+    background-color: rgb(226, 232, 206);
+    color: rgb(14, 31, 47);
+    border: 3px solid rgb(14, 31, 47);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+.caja-sm{
+    background-color: rgb(14, 31, 47);
+    color: rgb(226, 232, 206);
+    border: 3px solid rgb(226, 232, 206);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    margin-bottom:auto
+    
+}
+.button-sm {
+    border: 3px solid rgb(14, 31, 47);
+    background-color: rgb(226, 232, 206);
+    color: rgb(226, 232, 206);
+    border-radius:15px;
+    margin: auto;
+    width: 50px;
+    display: inline-flex;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.caja-cont{
+    background-color: rgb(14, 31, 47);
+    color: rgb(226, 232, 206);
+    border: 3px solid rgb(226, 232, 206);
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+}
