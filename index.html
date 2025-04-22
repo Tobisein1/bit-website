@@ -3,6 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="sthortcut icon"
       href="assets/cookieMonster.png"
@@ -10,33 +16,29 @@
     />
     <link rel="stylesheet" href="./CSS/style.css" />
     <title>Tobias Tamayo Arcila</title>
-    <style>
-      .text-green {
-        color: green;
-      }
-    </style>
   </head>
 
   <body>
     <header>
-      <h1 id="titulo">¿Quien es Tobias Tamayo Arcila?</h1>
+      <h1 id="titulo">¿Quién es Tobias Tamayo Arcila?</h1>
     </header>
     <nav class="menu">
       <a href="index.html" button class="button">Principal </a>
-      <a href="portafolio.html" button class="button">Portafolio </a>
-      <a href="documentos.html" button class="button">Documentos </a>
+      <a href="familia.html" button class="button">Familia</a>
+      <a href="galeria.html" button class="button">Galería</a>
       <a href="recomendaciones.html" button class="button"
-        >Música recomendada
-      </a>
+        >Música recomendada</a
+      >
+
+      <a href="contacto.html" button class="button">Contáctame</a>
     </nav>
     <div class="caja-principal">
       <main>
-        <section class="caja-section">
-          <h1>¿Quien soy?</h1>
+        <section class="caja-titulo">
+          <h1>¿Quién soy?</h1>
         </section>
 
         <section class="caja-section">
-          <h2>Introducción</h2>
           <p>
             Soy un ingeniero de sonido de 31 años con una gran pasión por el
             diseño sonoro y el diseño de videojuegos. Me gusta crear
@@ -50,8 +52,9 @@
             gusta mucho el monstruo comegalletas
           </p>
         </section>
+
         <section class="caja-section">
-          <h2>Mi Historia</h2>
+          <h2>Mi historia</h2>
           <p>
             Nací el 7 de marzo de 1994 en la ciudad de Medellín, ciudad en la
             cual residí hasta finales 1999 cuando debido al trabajo de mi padre
@@ -80,28 +83,57 @@
           </p>
         </section>
         <section class="caja-section">
-          <h2>Mi trayectoria Profesional</h2>
+          <h2>Mi trayectoria profesional</h2>
           <p>
-            En el úlitmo semestre de la carrera de ingeniería de sonido hice mis
-            prácticas en el colegio san ignacio de Loyola como encargado del
-            auditorio. Prácticas en las cuales tuve que administrar el
-            auditorio, estar encargado de los horarios de éste y durante eventos
-            estar encargado de la consola de sonido. Posterior a las prácticas
-            he estado administrando los bienes familiares.
+            Durante el último semestre de la carrera en Ingeniería de Sonido,
+            realicé mis prácticas profesionales en el Colegio San Ignacio de
+            Loyola, donde me desempeñé como responsable técnico del auditorio
+            institucional. Esta experiencia me permitió aplicar y fortalecer mis
+            conocimientos en gestión de recursos técnicos, planificación de
+            horarios y operación de equipos de audio. Estuve a cargo de
+            coordinar el uso del auditorio, asegurar el correcto funcionamiento
+            de los sistemas de sonido y brindar soporte técnico durante eventos
+            académicos y culturales. Esta labor exigió responsabilidad, atención
+            al detalle y capacidad de respuesta en entornos en vivo.
+            <br />
+            <br />
+            Tras finalizar mis prácticas, cursé estudios de inglés en la
+            Universidad EAFIT, donde obtuve una certificación oficial. Desde
+            entonces, he administrado los bienes familiares y, de forma
+            autónoma, he trabajado en la edición y sonorización de escenas para
+            producciones audiovisuales y videojuegos, lo que me ha permitido
+            seguir desarrollando mis habilidades técnicas y creativas. Además,
+            cuento con conocimientos del idioma alemán, lo cual me ha brindado
+            acceso a recursos técnicos y académicos en otros contextos
+            culturales, ampliando así mi perspectiva profesional.
           </p>
         </section>
         <section class="caja-section">
-          <h2>Hobbies</h2>
-          <ul>
-            <li>Escuchar Música</li>
-            <li>Tocar Guitarra</li>
-            <li>Jugar Videojuegos</li>
-            <li>Ver series y películas</li>
-            <li>Cocinar</li>
-            <li>Hacer rompecabezas</li>
-            <li>Nadar</li>
-            <li>Montar en Patines</li>
-          </ul>
+          <div class="caja-row">
+            <div class="cajita">
+              <div class="cent"><h2>Hobbies</h2></div>
+              <ul>
+                <li>Escuchar Música</li>
+                <li>Tocar Guitarra</li>
+                <li>Jugar Videojuegos</li>
+                <li>Ver series y películas</li>
+                <li>Cocinar</li>
+                <li>Hacer rompecabezas</li>
+                <li>Nadar</li>
+                <li>Montar en Patines</li>
+              </ul>
+            </div>
+            <div class="cajita">
+              <div class="cent"><h2>Comidas favoritas</h2></div>
+              <ol>
+                <li>Sushi</li>
+                <li>Lasagna</li>
+                <li>Fondue</li>
+                <li>Paella</li>
+                <li>Ramen</li>
+              </ol>
+            </div>
+          </div>
         </section>
       </main>
       <aside>
@@ -115,12 +147,13 @@
           <h3>Género: Masculino</h3>
           <h3>Estatura: 1.65cm</h3>
           <h3>Peso: 59Kg</h3>
-          <h3>Color de Piel: blanco</h3>
-          <h3>Color de pelo: Castaño oscuro</h3>
+          <h3>Color de cabello: Castaño oscuro</h3>
+          <h3>Color de ojos: Café</h3>
         </div>
       </aside>
     </div>
     <footer>
+      <p class="copy-tobi">&copy;2025 Tobisein all rights reserved</p>
       <div class="caja-sm">
         <div class="button-sm">
           <a href="https://www.facebook.com/tobilas/">
@@ -148,14 +181,29 @@
           </a>
         </div>
       </div>
-      <p>&copy;2025 Tobisein all rights reserved</p>
       <div class="caja-cont">
-        <h4>Contacto:</h4>
-        <ul>
-          <li>Cel:3136512342</li>
-          <li>Dirección:Calle 18AA Sur #29C-311, Medellín, Colombia</li>
-          <li>Correo. tobisein@hotmail.com</li>
-        </ul>
+        <table>
+          <tr>
+            <th>
+              <img class="icono" src="./assets/telefonito.png" alt="gitlink" />
+            </th>
+            <th class="text-cont">3136512342</th>
+          </tr>
+          <tr>
+            <th>
+              <img class="icono" src="./assets/location.png" alt="gitlink" />
+            </th>
+            <th class="text-cont">
+              Calle 18AA Sur #29C-311, Medellín, Colombia
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <img class="icono" src="./assets/email.png" alt="gitlink" />
+            </th>
+            <th class="text-cont">tobisein@hotmail.com</th>
+          </tr>
+        </table>
       </div>
     </footer>
   </body>
